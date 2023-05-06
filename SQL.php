@@ -1,0 +1,6 @@
+CREATE TABLE groceries (
+  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  item_name VARCHAR(30) NOT NULL,
+  quantity INT(6) NOT NULL,
+  price FLOAT(10,2) NOT NULL
+);
